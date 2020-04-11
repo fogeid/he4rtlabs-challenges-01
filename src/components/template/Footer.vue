@@ -10,7 +10,7 @@
 export default {
     data() {
         return {
-            site: "https://fogeid.github.io",            
+            site: 'https://fogeid.github.io',            
         }
     }
 }

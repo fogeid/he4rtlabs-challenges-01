@@ -8,8 +8,15 @@
       <section class="col-2">      
         <app-social-midia />
         <app-form />
-      </section>
+      </section>      
     </div>
+    <section class="cards" id="cards">
+      <app-cards class="cards__item" />
+      <app-cards class="cards__item" />
+      <app-cards class="cards__item" />
+      <app-cards class="cards__item" />
+    </section>
+    <app-footer />
   </div>
 </template>
 
@@ -18,6 +25,8 @@ import Logo from '@/components/template/Logo.vue';
 import Social from '@/components/template/Social.vue';
 import Informacao from '@/components/template/Informacao.vue';
 import Formulario from '@/components/template/Formulario.vue';
+import Card from '@/components/template/Card.vue';
+import Footer from '@/components/template/Footer.vue';
 
 export default {
   name: 'Home',
@@ -26,6 +35,8 @@ export default {
     'app-social-midia': Social,
     'app-informacao': Informacao,
     'app-form': Formulario,
+    'app-cards': Card,
+    'app-footer': Footer,
   }
 }
 </script>

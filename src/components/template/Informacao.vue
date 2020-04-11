@@ -7,7 +7,7 @@
                 Um projeto proposto pelo grupo <a :href="link">He4rt Developers</a>
             </p>
             <div class="info-btn">
-                <button class="btn">Mais</button>
+                <a href="#cards" class="btn">Mais</a>
             </div>
         </div>
     </div>    

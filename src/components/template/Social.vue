@@ -2,15 +2,15 @@
     <div class="social">
         <ul class="social__list">
             <li class="social__list__item">
-                <a :href="github"><i class="fab fa-github"></i></a>
+                <a :href="github" target="_blank"><i class="fab fa-github"></i></a>
             </li>
 
             <li class="social__list__item">
-                <a :href="instagram"><i class="fab fa-instagram"></i></a>
+                <a :href="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
             </li>
 
             <li class="social__list__item">
-                <a :href="twitter"><i class="fab fa-twitter"></i></a>
+                <a :href="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
             </li>
         </ul>
     </div>    

@@ -1,0 +1,24 @@
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_buttons.scss';
+
+.card {
+    font-family: $font;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    .card__title {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        color: $color-text-secondary;
+    }
+    .card__text {
+        font-size: .9rem;
+        line-height: 1.5rem;
+        max-width: 800px;
+        color: $color-text-primary;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,17 @@
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_buttons.scss';
+
+.footer {
+    background-color: $color-dark;
+    p {
+        padding: 30px;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #fff;
+    }
+    a {
+        color: #32fa64;
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,18 @@
+.social {
+    width: 20%;
+    .social__list {
+        border: 1px solid yellow;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .social__list__item i {
+            color: #a64dff;
+            font-size: 2.5rem;
+            transition: all .3s ease;
+        }
+        .social__list__item i:hover {
+            color: #8915fd;
+            font-size: 2.5rem;
+        }
+    }
+}

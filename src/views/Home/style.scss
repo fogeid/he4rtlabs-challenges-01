@@ -1,0 +1,12 @@
+// Gerais
+@import '@/assets/scss/_reset.scss';
+@import '@/assets/scss/_bootstrap-grid.scss';
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

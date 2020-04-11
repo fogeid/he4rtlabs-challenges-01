@@ -28,3 +28,18 @@
         }
     }
 }
+
+.resultado {
+    margin-top: 30px;
+    text-align: center;
+    font-family: $font;
+    color: #32fa64;
+    .resultado__title {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+    .resultado__valor {
+        font-size: 2.5rem;
+        margin-top: 30px;
+    }
+}

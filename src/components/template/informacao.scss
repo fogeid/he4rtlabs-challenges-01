@@ -1,0 +1,24 @@
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_buttons.scss';
+
+.info {
+    width: 500px;
+    font-family: $font;
+    text-align: center;
+    .info__title {
+        font-size: 2.5rem;
+        color: $color-text-secondary;
+        margin-bottom: 20px;
+    }
+    .info__text {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        color: $color-text-primary;
+        margin-bottom: 30px;
+    }
+    .info__text a {
+        text-decoration: none;
+        color: $color-link;
+    }
+}

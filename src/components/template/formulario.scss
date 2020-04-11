@@ -9,7 +9,7 @@
     font-family: $font;
     font-size: 1.2rem;
     width: 300px;
-    color: $color-text-secondary;
+    color: $color-text-primary;
     .form__label {
         margin-bottom: 1rem;
     }
@@ -24,7 +24,7 @@
         transition: all .3s ease;
         padding-bottom: 5px;
         &:hover, &:focus {
-            border-bottom: 1px solid $color-text-primary;
+            border-bottom: 1px solid $color-border-primary;
         }
     }
 }

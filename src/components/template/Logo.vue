@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img :src="img" alt="He4rtDevs">
+        <a href="#"><img :src="img" alt="He4rtDevs"></a>
     </div>    
 </template>
 

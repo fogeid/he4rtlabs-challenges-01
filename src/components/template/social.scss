@@ -3,20 +3,19 @@
 @import '@/assets/scss/_buttons.scss';
 
 .social {
-    width: 20%;
+    width: 200px;
+    margin: 80px 0 80px 0;
     .social__list {
-        border: 1px solid yellow;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         .social__list__item i {
             color: $color-button-primary;
-            font-size: 2.5rem;
+            font-size: 2rem;
             transition: all .3s ease;
         }
         .social__list__item i:hover {
-            color: $color-button-primary;
-            font-size: 2.5rem;
+            color: $color-button-secondary;
         }
     }
 }

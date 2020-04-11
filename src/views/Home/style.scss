@@ -1,8 +1,8 @@
 // Gerais
 @import '@/assets/scss/_reset.scss';
-@import '@/assets/scss/_bootstrap-grid.scss';
-@import '@/assets/scss/_font.scss';
-@import '@/assets/scss/_colors.scss';
+@import '@/components/template/logo.scss';
+@import '@/components/template/social.scss';
+@import '@/components/template/formulario.scss';
 
 
 .header {

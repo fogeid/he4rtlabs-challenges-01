@@ -1,0 +1,15 @@
+.btn {
+    width: 200px;
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: $font;
+    color: #fff;
+    background-color: $color-button-primary;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    &:hover {
+        background-color: $color-button-secondary;
+   }
+}

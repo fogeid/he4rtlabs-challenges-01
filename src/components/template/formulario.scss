@@ -1,0 +1,30 @@
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_buttons.scss';
+
+.form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: $font;
+    font-size: 1.2rem;
+    width: 300px;
+    color: $color-text-secondary;
+    .form__label {
+        margin-bottom: 1rem;
+    }
+    .form__input {
+        margin-bottom: 1rem;
+        font-size: 1.2rem;
+        color: #fff;
+        text-align: center;
+        background: none;
+        border: none;
+        border-bottom: 1px solid $color-button-primary;
+        transition: all .3s ease;
+        padding-bottom: 5px;
+        &:hover, &:focus {
+            border-bottom: 1px solid $color-text-primary;
+        }
+    }
+}

@@ -1,3 +1,7 @@
+@import '@/assets/scss/_font.scss';
+@import '@/assets/scss/_colors.scss';
+@import '@/assets/scss/_buttons.scss';
+
 .social {
     width: 20%;
     .social__list {
@@ -6,12 +10,12 @@
         flex-direction: row;
         justify-content: space-between;
         .social__list__item i {
-            color: #a64dff;
+            color: $color-button-primary;
             font-size: 2.5rem;
             transition: all .3s ease;
         }
         .social__list__item i:hover {
-            color: #8915fd;
+            color: $color-button-primary;
             font-size: 2.5rem;
         }
     }

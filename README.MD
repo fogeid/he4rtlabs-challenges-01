@@ -1,4 +1,5 @@
 # Projeto 001 - Calculadora de Freelas
+Deploy: https://diegobatista-he4rtdevs.netlify.com/#/
 
 Uma calculadora que irá te mostrar o valor da sua hora perante o freelance cotado.
 

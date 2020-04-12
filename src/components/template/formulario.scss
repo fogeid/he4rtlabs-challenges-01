@@ -40,6 +40,9 @@
     text-align: center;
     font-family: $font;
     color: #32fa64;
+    @include device(desktop) {
+        margin-bottom: 0;            
+    }
     .resultado__title {
         font-size: 1.5rem;
         margin-bottom: 30px;

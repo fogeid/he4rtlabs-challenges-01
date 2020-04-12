@@ -1,15 +1,21 @@
 @import '@/assets/scss/_font.scss';
 @import '@/assets/scss/_colors.scss';
 @import '@/assets/scss/_buttons.scss';
+@import '@/assets/scss/_responsividade.scss';
+
 
 .form {
     display: flex;
     flex-direction: column;
+    margin: 0 auto 20px auto;
     text-align: center;
     font-family: $font;
     font-size: 1.2rem;
-    width: 300px;
+    max-width: 300px;
     color: $color-text-primary;
+    @include device(desktop) {
+        width: 600px;            
+    }
     .form__label {
         margin-bottom: 1rem;
     }
@@ -30,7 +36,7 @@
 }
 
 .resultado {
-    margin-top: 30px;
+    margin-bottom: 30px;    
     text-align: center;
     font-family: $font;
     color: #32fa64;
